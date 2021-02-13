@@ -1,0 +1,146 @@
+<!--doctype html-->
+<html>
+<head>
+ <!--using FontAwesome---------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Personal Website</title>
+<link rel="stylesheet" type="text/css" href = "style.css">>
+	<!--style----->
+	<style>
+		body{
+			font-family:poppins;
+		}
+	</style>
+	
+</head>
+<body>
+<section>
+	<!--navigation------------------------->
+	<nav>
+	<!--logo-->
+	<a href="#" class="logo">Rakib Hasan</a>
+	<!--menu-->
+	<ul>
+	<li><a href="#" class="active">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact </a></li>
+	<li><a href="#">Team</a></li>
+	</ul>
+	<!--bars--------------->
+	<div class="toggle"></div>
+	
+	</nav>
+  </section>
+  <!--text----------------------->
+		<div class="text-container">
+			<p>Hello,</p>
+		    <p>I'M Rakib Hasan </p>
+			<p>Web Devoloper and Designer </p>
+			<button class="hire-btn">Hire me</button>
+			<button class="down-cv">Download CV</button>
+		</div>
+	<!--model---------------------->
+	<img alt="model" class="model" src="20181223155041_IMG_2958.jpg">  
+	
+	  <div class="about-container">
+	<!--img-->
+		<img src="20181223155041_IMG_2958.jpg">
+	<!--about-me-text-->
+		<div class="about-text">
+		<p>About Me</p>
+		<p>Devolper & Designer</p>
+		<p>Hello,My name is Rakib Hasan. A man who is surrounded by love,grace,compassion and mercy. <br> 
+		   Talking about my educational qualification, I have completed my SSC from Armanitola Govt High School. I have done my 12th in Northern college.</p>
+		<p> My strengths are hard-working, self-motivating and dedicated towards my work.
+		    My weakness is I feel uncomfortable until I finish my work in the given time.
+			My hobbies are cooking, listening to music and playing the shuttle.
+			Thats all about me, thanks again for this opportunity to introduce myself.</p>
+		<button>Hire Me</button>
+		<button>Download CV</button>
+		</div>
+	</div>
+	
+	  <!--services-container---------------------------->
+	<div class="services ">
+		<!--text-->
+		<div class="services-text ">
+	<p>Professional Skills</p>
+	<p>Language </p>
+	<p>  HTML 100% </p>
+	<p>  CSS 100% </p>
+	<p>  JAVASCRIPT 50% </p>
+			</div>
+			
+		<div class="box-container">
+		
+		<!--1------------->
+			<div class="box-1">
+			<span>1</span>
+			<p class="heading">Work Experience </p>
+			<p class="details">Entry-Level Software Developer at Informal Soft Studio.</p>
+			<button>Read More</button>
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<span>2</span>
+			<p class="heading">Work Experience </p>
+			<p class="details">Junior Web Developer at Informal Soft Studio.</p>
+			<button>Read More</button>
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<span>3</span>
+			<p class="heading">Work Experience</p>
+			<p class="details">Freelancer.</p>
+			<button>Read More</button>
+			</div>
+		</div>
+	</div>
+	
+	  <!--if you have any project in your mind contact me-->
+	<div class="contact-me">
+		<p>If you need any kind of help or advice don't hesitate to getting touch with me. </p>
+		<button>Contact me</button>
+	</div>
+	
+	 <!--footer--------------->
+ <footer>
+	 <!--heading-->
+  <p>Thank you and stay connected</p>
+	 <!--paragraph-->
+	 <p>Thats all. See you soon.</p>
+	 <!--social-->
+	<div class="social-icons">
+	<a href="#"><i class="fab fa-facebook-f"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	<a href="#"><i class="fab fa-youtube"></i></a>
+	
+	</div>
+	 <!--copyright-->
+	 <p class="copyright">Copyright is own by Rakib Hasan</p>
+</footer>
+	<!--social-attach-bar-->
+	<div class="social">
+	<a href="https://www.facebook.com/profile.php?id=100004174872993"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://twitter.com/home?lang=en-gb"><i class="fab fa-twitter"></i></a>
+	<a href="https://www.instagram.com/hasan_imrani/"><i class="fab fa-instagram"></i></a>
+	<a href="https://www.youtube.com/channel/UCSOK35iIkYBfC8nm3KBkX6Q"><i class="fab fa-youtube"></i></a>
+	</div>
+</body>
+
+ <!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+</html>
